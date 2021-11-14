@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[3]:
 
 
 import random
@@ -34,7 +34,7 @@ class Random:
                 if rn >=self.minRange and rn <= self.maxRange :
                     numbers.append(rn)
             print(numbers)
-x = Random(5,10,30)
+x = Random(4,12,40)
 x.myfunc()
 
 
