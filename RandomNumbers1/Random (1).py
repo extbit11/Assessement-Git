@@ -34,7 +34,7 @@ class Random:
                 if rn >=self.minRange and rn <= self.maxRange :
                     numbers.append(rn)
             print(numbers)
-x = Random(4,12,40)
+x = Random(7,15,50)
 x.myfunc()
 
 
